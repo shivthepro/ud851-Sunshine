@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
      Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,9 +12,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<!--COMPELTED (1) Change the ConstraintLayout to a FrameLayout-->
-<!--COMPELTED (7) Remove the line that declares the id, we don't need it-->
+--><!--COMPELTED (1) Change the ConstraintLayout to a FrameLayout--><!--COMPELTED (7) Remove the line that declares the id, we don't need it-->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -32,11 +29,12 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/tv_weather_data"
-        android:layout_width="wrap_content"
-        android:padding="16dp"
-        android:textSize="20sp"
-        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_weather_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp" />
     </ScrollView>
 </FrameLayout>
